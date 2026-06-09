@@ -1,0 +1,29 @@
+.todoitems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.todoitems-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.todoitems-text{
+    font-size: 18px;
+}
+img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.cross{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+.line-through{
+    text-decoration: line-through  #adadad 3px;
+}
